@@ -1375,6 +1375,7 @@ MonoBehaviour:
   - {fileID: 1965275575}
   - {fileID: 1767563230}
   - {fileID: 319369352}
+  moveBoxItem: {fileID: 7590250993915461145, guid: eac6cfcec95db469abc2ff10fd92000b, type: 3}
 --- !u!1001 &1241788242
 PrefabInstance:
   m_ObjectHideFlags: 0

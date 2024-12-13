@@ -1,34 +1,27 @@
 using System.Collections;
-using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BoxItem : MonoBehaviour
+
+public class MoveBoxItem : MonoBehaviour
 {
     [SerializeField] private Image image;
     [SerializeField] private Text text;
 
-    public int count;
-    public void SetData(int count)
+    public void StartAnimation(float moveTime, Vector3 startPos, Vector3 endPos, int count)
     {
-        text.enabled = true;
-        this.count = count;
-        if (count==0)
-        {
-            text.text = "";
-            image.color = Color.white;
-        }
-        else
-        {
-            text.text = count.ToString();
-            image.color = GetColor(count);
-        }
+        transform.position = startPos;
+        text.text = count.ToString();
+        image.color = GetColor(count);
+        transform.DOMove(endPos, moveTime);
+        StartCoroutine(_enumerator(moveTime));
     }
 
-    public void Hid()
+    private IEnumerator _enumerator(float time)
     {
-        image.color = Color.white;
-        text.enabled = false;
+        yield return new WaitForSeconds(time);
+        Destroy(gameObject);
     }
 
     private Color GetColor(int count)
