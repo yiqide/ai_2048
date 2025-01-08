@@ -1,0 +1,29 @@
+{
+    "MovePan": {
+        "checkpoints": [
+            {
+                "steps": 4884,
+                "file_path": "results/MovePan/MovePan/MovePan-4884.onnx",
+                "reward": null,
+                "creation_time": 1730531263.311455,
+                "auxillary_file_paths": [
+                    "results/MovePan/MovePan/MovePan-4884.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4884,
+            "file_path": "results/MovePan/MovePan.onnx",
+            "reward": null,
+            "creation_time": 1730531263.311455,
+            "auxillary_file_paths": [
+                "results/MovePan/MovePan/MovePan-4884.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.5.1"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "RollingBall": {
+        "checkpoints": [
+            {
+                "steps": 293359,
+                "file_path": "results/RollingBall/RollingBall/RollingBall-293359.onnx",
+                "reward": 0.9088888764381409,
+                "creation_time": 1730560647.638585,
+                "auxillary_file_paths": [
+                    "results/RollingBall/RollingBall/RollingBall-293359.pt"
+                ]
+            },
+            {
+                "steps": 499991,
+                "file_path": "results/RollingBall/RollingBall/RollingBall-499991.onnx",
+                "reward": 0.5716666877269745,
+                "creation_time": 1730562001.1270132,
+                "auxillary_file_paths": [
+                    "results/RollingBall/RollingBall/RollingBall-499991.pt"
+                ]
+            },
+            {
+                "steps": 500007,
+                "file_path": "results/RollingBall/RollingBall/RollingBall-500007.onnx",
+                "reward": 0.6114285928862435,
+                "creation_time": 1730562001.145519,
+                "auxillary_file_paths": [
+                    "results/RollingBall/RollingBall/RollingBall-500007.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500007,
+            "file_path": "results/RollingBall/RollingBall.onnx",
+            "reward": 0.6114285928862435,
+            "creation_time": 1730562001.145519,
+            "auxillary_file_paths": [
+                "results/RollingBall/RollingBall/RollingBall-500007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.5.1"
+    }
+}
