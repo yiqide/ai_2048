@@ -1,0 +1,65 @@
+{
+    "Game2048": {
+        "checkpoints": [
+            {
+                "steps": 18499991,
+                "file_path": "results/Game2048/Game2048/Game2048-18499991.onnx",
+                "reward": 137.93638967506348,
+                "creation_time": 1741025038.3563788,
+                "auxillary_file_paths": [
+                    "results/Game2048/Game2048/Game2048-18499991.pt"
+                ]
+            },
+            {
+                "steps": 18999704,
+                "file_path": "results/Game2048/Game2048/Game2048-18999704.onnx",
+                "reward": 172.72000312805176,
+                "creation_time": 1741026708.130069,
+                "auxillary_file_paths": [
+                    "results/Game2048/Game2048/Game2048-18999704.pt"
+                ]
+            },
+            {
+                "steps": 19499511,
+                "file_path": "results/Game2048/Game2048/Game2048-19499511.onnx",
+                "reward": 118.69657366616386,
+                "creation_time": 1741028365.691988,
+                "auxillary_file_paths": [
+                    "results/Game2048/Game2048/Game2048-19499511.pt"
+                ]
+            },
+            {
+                "steps": 19999911,
+                "file_path": "results/Game2048/Game2048/Game2048-19999911.onnx",
+                "reward": 129.79720249176026,
+                "creation_time": 1741030036.1209888,
+                "auxillary_file_paths": [
+                    "results/Game2048/Game2048/Game2048-19999911.pt"
+                ]
+            },
+            {
+                "steps": 20000423,
+                "file_path": "results/Game2048/Game2048/Game2048-20000423.onnx",
+                "reward": 129.79720249176026,
+                "creation_time": 1741030036.444148,
+                "auxillary_file_paths": [
+                    "results/Game2048/Game2048/Game2048-20000423.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20000423,
+            "file_path": "results/Game2048/Game2048.onnx",
+            "reward": 129.79720249176026,
+            "creation_time": 1741030036.444148,
+            "auxillary_file_paths": [
+                "results/Game2048/Game2048/Game2048-20000423.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.5.1"
+    }
+}
